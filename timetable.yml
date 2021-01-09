@@ -2,18 +2,17 @@
 title: IET Lucknow Semster Timetables
 
 holidays:
-  - ["26-01-2021", "Republic Day", "Cheers to our great Nation!"]
-  - ["02-04-2021", "Good Friday", "Good Friday is a Christian holiday commemorating the crucifixion of Jesus and his death at Calvary."]
-  - ["14-04-2021", "Ambedkar Jayanti", "Ambedkar Jayanti or Bhim Jayanti is an annual festival observed on 14 April to commemorate the memory of B. R. Ambedkar, Indian polymath, the father of the Constitution of India and civil rights activist."]
-
+  "26-01-2021": ["Republic Day", "Cheers to our great Nation!"]
+  "02-04-2021": ["Good Friday", "Good Friday is a Christian holiday commemorating the crucifixion of Jesus and his death at Calvary."]
+  "14-04-2021": ["Ambedkar Jayanti", "Ambedkar Jayanti or Bhim Jayanti is an annual festival observed on 14 April to commemorate the memory of B. R. Ambedkar, Indian polymath, the father of the Constitution of India and civil rights activist."]
 
 B.Tech:
   semesters:
       first:
         branches:
           EC:
-            yap_room_name: EC-2024
-            yap_room_id: <tbd>
+            room_name: EC 2024
+            room_id: e842a2c2-23f4-4e5d-9fb8-fdf682c87284
             timetable:
               monday:
                 - ["I",   "09:10AM - 10:00AM", ""]
@@ -55,7 +54,7 @@ B.Tech:
                 - ["V",   " 2:00PM -  2:50PM", "KMC101 (L)"]
                 - ["VI",  " 2:50PM -  3:40PM", "KMC101 (L)"]
                 - ["VII", " 3:40PM -  4:30PM", "KCE151P (T2)"]
-              satuday:
+              saturday:
                 - ["I",  "09:10AM - 10:00AM", "KCE151P"]
                 - ["II", "10:00AM - 10:50PM", "KCE151P"]
                 - ["III", "10:50AM - 11:40PM", "KCE151P"]
@@ -64,8 +63,8 @@ B.Tech:
                 - ["VI",  " 2:50PM -  3:40PM", ""]
                 - ["VII", " 3:40PM -  4:30PM", ""]
           EI:
-            yap_room_name: EI-2024
-            yap_room_id: <tbd>
+            room_name: EI 2024
+            room_id: bda68888-9432-40f6-aa35-5c0efca17905
             timetable:
               monday:
                 - ["I",   "09:10AM - 10:00AM", "KAS101T (L)"]
@@ -107,7 +106,7 @@ B.Tech:
                 - ["V",   " 2:00PM -  2:50PM", "KNC101 (L)"]
                 - ["VI",  " 2:50PM -  3:40PM", "KCS151P (T1)"]
                 - ["VII", " 3:40PM -  4:30PM", ""]
-              satuday:
+              saturday:
                 - ["I",  "09:10AM - 10:00AM", "KAS103T (T2)"]
                 - ["II", "10:00AM - 10:50PM", "KCS151P (T2)"]
                 - ["III", "10:50AM - 11:40PM", "KCS101T (L)"]
@@ -116,8 +115,8 @@ B.Tech:
                 - ["VI",  " 2:50PM -  3:40PM", ""]
                 - ["VII", " 3:40PM -  4:30PM", ""]
           EE:
-            yap_room_name: EE-2024
-            yap_room_id: <tbd>
+            room_name: EE 2024
+            room_id: 71875e02-2d0d-4528-ace2-2ccb92c49b4e
             timetable:
               monday:
                 - ["I",   "09:10AM - 10:00AM", "KAS101T (L)"]
@@ -159,7 +158,7 @@ B.Tech:
                 - ["V",   " 2:00PM -  2:50PM", "KCE151P (T1)"]
                 - ["VI",  " 2:50PM -  3:40PM", "KCE151P (T2)"]
                 - ["VII", " 3:40PM -  4:30PM", ""]
-              satuday:
+              saturday:
                 - ["I",  "09:10AM - 10:00AM", "KNC101 (L)"]
                 - ["II", "10:00AM - 10:50PM", "KNC101 (L) "]
                 - ["III", "10:50AM - 11:40PM", "KCS151P (T2)"]
@@ -168,8 +167,8 @@ B.Tech:
                 - ["VI",  " 2:50PM -  3:40PM", ""]
                 - ["VII", " 3:40PM -  4:30PM", ""]
           ME:
-            yap_room_name: ME-2024
-            yap_room_id: <tbd>
+            room_name: ME 2024
+            room_id: 0f627640-7053-48ca-9ec7-b92778ed56ec
             timetable:
               monday:
                 - ["I",   "09:10AM - 10:00AM", "KEE101T (L)"]
@@ -211,7 +210,7 @@ B.Tech:
                 - ["V",   " 2:00PM -  2:50PM", ""]
                 - ["VI",  " 2:50PM -  3:40PM", "KCE151P/KCS151P"]
                 - ["VII", " 3:40PM -  4:30PM", "KCE151P/KCS151P"]
-              satuday:
+              saturday:
                 - ["I",  "09:10AM - 10:00AM", ""]
                 - ["II", "10:00AM - 10:50PM", "KAS101T (T1)"]
                 - ["III", "10:50AM - 11:40PM", "KCS151P (T2)"]
@@ -220,8 +219,8 @@ B.Tech:
                 - ["VI",  " 2:50PM -  3:40PM", ""]
                 - ["VII", " 3:40PM -  4:30PM", ""]
           CH:
-            yap_room_name: -2024
-            yap_room_id: <tbd>
+            room_name: CH 2024
+            room_id: e6bf72b4-fd87-4a05-8125-fdc64d395178
             timetable:
               monday:
                 - ["I",   "09:10AM - 10:00AM", ""]
@@ -263,7 +262,7 @@ B.Tech:
                 - ["V",   " 2:00PM -  2:50PM", ""]
                 - ["VI",  " 2:50PM -  3:40PM", "KAS154P/KWS151P"]
                 - ["VII", " 3:40PM -  4:30PM", "KAS154P/KWS151P"]
-              satuday:
+              saturday:
                 - ["I",  "09:10AM - 10:00AM", "KMC102 (L)"]
                 - ["II", "10:00AM - 10:50PM", "KAS102T (L)"]
                 - ["III", "10:50AM - 11:40PM", "KAS103T (L)"]
@@ -272,8 +271,8 @@ B.Tech:
                 - ["VI",  " 2:50PM -  3:40PM", ""]
                 - ["VII", " 3:40PM -  4:30PM", ""]
           CE:
-            yap_room_name: CE-2024
-            yap_room_id: <tbd>
+            room_name: CE 2024
+            room_id: e24d5033-82b7-4577-adff-a5ca9b03026c
             timetable:
               monday:
                 - ["I",   "09:10AM - 10:00AM", "KEC101T (L)"]
@@ -315,7 +314,7 @@ B.Tech:
                 - ["V",   " 2:00PM -  2:50PM", ""]
                 - ["VI",  " 2:50PM -  3:40PM", "KME101T (L) "]
                 - ["VII", " 3:40PM -  4:30PM", "KME101T (L) "]
-              satuday:
+              saturday:
                 - ["I",  "09:10AM - 10:00AM", "KAS154P/KWS151P"]
                 - ["II", "10:00AM - 10:50PM", "KAS154P/KWS151P"]
                 - ["III", "10:50AM - 11:40PM", "KEC151P/KAS152P"]
@@ -324,8 +323,8 @@ B.Tech:
                 - ["VI",  " 2:50PM -  3:40PM", ""]
                 - ["VII", " 3:40PM -  4:30PM", ""]
           IT:
-            yap_room_name: IT-2024
-            yap_room_id: <tbd>
+            room_name: IT 2024
+            room_id: 318c9e54-5af6-4ef3-bcd3-05dde17cd76a
             timetable:
               monday:
                 - ["I",   "09:10AM - 10:00AM", "KAS154P (T1)"]
@@ -367,7 +366,7 @@ B.Tech:
                 - ["V",   " 2:00PM -  2:50PM", "KAS102T (L)"]
                 - ["VI",  " 2:50PM -  3:40PM", "KEC101T (L)"]
                 - ["VII", " 3:40PM -  4:30PM", ""]
-              satuday:
+              saturday:
                 - ["I",  "09:10AM - 10:00AM", "KMC102 (L)"]
                 - ["II", "10:00AM - 10:50PM", "KAS103T (T1)"]
                 - ["III", "10:50AM - 11:40PM", "KAS103T (L)"]
@@ -376,8 +375,8 @@ B.Tech:
                 - ["VI",  " 2:50PM -  3:40PM", ""]
                 - ["VII", " 3:40PM -  4:30PM", ""]
           CS:
-            yap_room_name: CS-2024
-            yap_room_id: <tbd>
+            room_name: CS 2024
+            room_id: 1574a8f2-b942-450e-8888-219cb070b56a
             timetable:
               monday:
                 - ["I",   "09:10AM - 10:00AM", "KAS154P/KWS151P"]
@@ -419,7 +418,7 @@ B.Tech:
                 - ["V",   " 2:00PM -  2:50PM", ""]
                 - ["VI",  " 2:50PM -  3:40PM", "KMC102 (L)"]
                 - ["VII", " 3:40PM -  4:30PM", "KMC102 (L)"]
-              satuday:
+              saturday:
                 - ["I",  "09:10AM - 10:00AM", "KEC101T (L)"]
                 - ["II", "10:00AM - 10:50PM", "KAS102T (L)"]
                 - ["III", "10:50AM - 11:40PM", "KAS154Ps/KWS151P"]
